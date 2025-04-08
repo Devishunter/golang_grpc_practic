@@ -13,7 +13,7 @@
 
 
 
-1. Create one proto file name with `greeeing.proto` or can copy from [Here](https://github.com/DekivadiyaKishan/golang-grpc/blob/main/proto/greeting.proto)
+1. Create one proto file name with `greeeing.proto`.
 
 ```proto
 
