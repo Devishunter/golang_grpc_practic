@@ -13,7 +13,7 @@
 
 
 
-1. Create one proto file name with `greeeing.proto` or can copy from [Here](https://github.com/DekivadiyaKishan/golang-grpc/blob/main/proto/greeting.proto)
+1. Create one proto file name with `greeeing.proto`.
 
 ```proto
 
@@ -53,7 +53,7 @@ type GreetingServiceServer interface {
 }
 ```
 
-3. Now we need to inherite and implement above interface [Here](https://github.com/DekivadiyaKishan/golang-grpc/blob/main/server/server.go)
+3. Now we need to inherite and implement above interface.
 
 ```go
 package main
@@ -105,7 +105,7 @@ pb.RegisterGreetingServiceServer(s, &server{})
 ```
   - now we can start our server file with `go run server.go`
 
-4. After server start we need to write client for call greeting method or copy from [Here](https://github.com/DekivadiyaKishan/golang-grpc/blob/main/client/client.go)
+4. After server start we need to write client for call greeting method.
 
 ```go 
 package main
